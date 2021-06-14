@@ -38,7 +38,7 @@ Para gerar o report, entrar com o seguinte comando no terminal:
 
 
 
-##Passo-a-passo de criação do projeto + lógica:
+## Passo-a-passo de criação do projeto + lógica:
 1. Ter as tecnologias necessarias instaladas.
 
 
@@ -89,7 +89,7 @@ Tambêm temos a chave
 Por fim, ainda na pasta raiz, temos o arquivo ***steps_file.ts***, onde podemos
 criar funções globais para o projeto.
 
-###Estrutura
+### Estrutura
 Tentei deixar a estrutura o mais simples e intuitiva possível.
 
 Na pasta raiz do projeto temos as pastas ***tests*** com os nossos testes e a de recursos chamada de ***resources***.
@@ -105,7 +105,7 @@ eu optei por incluir também testes com falha no projeto.
 
 Procurei deixar o código comentado para facilitar entendimento do que está sendo feito.
 
-###Testes
+### Testes
 Vamos realizar testes em duas APIs do swapi.dev.
 
 A primeira é a ```swapi.dev/api/people/```, procurando pelo id ***1***.
@@ -121,7 +121,7 @@ Os testes são basicamente os mesmos da primeira API, só que com os atributos d
 Note que neste MVP temos somentes chamadas do tipo ***GET***, porém o jeito para fazer ***Post***, ***Delete*** e ***Put*** é basicamente o mesmo, só precisando enviar um body(no caso do post e put).
 
 
-###Melhorias Futuras
+### Melhorias Futuras
 Criar um page object com as variaveis que vão ser validadas;
 
 Utilizar o objeto "I" do codecept para tirar maior vantagem do framework;
@@ -131,7 +131,7 @@ Deixar variável ***id*** dinâmica;
 Implementar teste de tempo de resposta da api.
 
 
-###Fontes de pesquisa
+### Fontes de pesquisa
 [Setup CodeceptJS](https://codecept.io/typescript/#getting-started)
 
 [Configuração Allure Report](https://codecept.io/plugins/#allure)
