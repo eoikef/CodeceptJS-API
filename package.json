@@ -1,0 +1,32 @@
+{
+  "name": "codeceptjs-api",
+  "version": "1.0.0",
+  "description": "MVP para testes na camada de servico utilizando CodeceptJS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx codeceptjs run -c ./codecept.conf.js --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoikef/CodeceptJS-API.git"
+  },
+  "author": "Robson Hamilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoikef/CodeceptJS-API/issues"
+  },
+  "homepage": "https://github.com/eoikef/CodeceptJS-API#readme",
+  "devDependencies": {
+    "ajv": "^6.12.6",
+    "axios": "^0.21.1",
+    "chai-json-schema-ajv": "^5.2.4",
+    "codeceptjs": "^3.0.7",
+    "webdriverio": "^5.23.0"
+  },
+  "dependencies": {
+    "codeceptjs-chai": "^2.3.1"
+  }
+}

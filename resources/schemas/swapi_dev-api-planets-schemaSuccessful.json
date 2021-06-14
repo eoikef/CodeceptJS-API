@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string"
+    },
+    "rotation_period": {
+      "$id": "#/properties/rotation_period",
+      "type": "string"
+    },
+    "orbital_period": {
+      "$id": "#/properties/orbital_period",
+      "type": "string"
+    },
+    "diameter": {
+      "$id": "#/properties/diameter",
+      "type": "string"
+    },
+    "climate": {
+      "$id": "#/properties/climate",
+      "type": "string"
+    },
+    "gravity": {
+      "$id": "#/properties/gravity",
+      "type": "string"
+    },
+    "terrain": {
+      "$id": "#/properties/terrain",
+      "type": "string"
+    },
+    "surface_water": {
+      "$id": "#/properties/surface_water",
+      "type": "string"
+    },
+    "population": {
+      "$id": "#/properties/population",
+      "type": "string"
+    },
+    "residents": {
+      "$id": "#/properties/residents",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/residents/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/residents/items/anyOf/0",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "films": {
+      "$id": "#/properties/films",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/films/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/films/items/anyOf/0",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "created": {
+      "$id": "#/properties/created",
+      "type": "string"
+    },
+    "edited": {
+      "$id": "#/properties/edited",
+      "type": "string"
+    },
+    "url": {
+      "$id": "#/properties/url",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string"
+    },
+    "height": {
+      "$id": "#/properties/height",
+      "type": "string"
+    },
+    "mass": {
+      "$id": "#/properties/mass",
+      "type": "integer"
+    },
+    "hair_color": {
+      "$id": "#/properties/hair_color",
+      "type": "string"
+    },
+    "skin_color": {
+      "$id": "#/properties/skin_color",
+      "type": "string"
+    },
+    "eye_color": {
+      "$id": "#/properties/eye_color",
+      "type": "string"
+    },
+    "birth_year": {
+      "$id": "#/properties/birth_year",
+      "type": "string"
+    },
+    "gender": {
+      "$id": "#/properties/gender",
+      "type": "string"
+    },
+    "homeworld": {
+      "$id": "#/properties/homeworld",
+      "type": "string"
+    },
+    "films": {
+      "$id": "#/properties/films",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/films/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/films/items/anyOf/0",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "species": {
+      "$id": "#/properties/species",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/species/items"
+      }
+    },
+    "vehicles": {
+      "$id": "#/properties/vehicles",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/vehicles/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/vehicles/items/anyOf/0",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "starships": {
+      "$id": "#/properties/starships",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/starships/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/starships/items/anyOf/0",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "created": {
+      "$id": "#/properties/created",
+      "type": "string"
+    },
+    "edited": {
+      "$id": "#/properties/edited",
+      "type": "string"
+    },
+    "url": {
+      "$id": "#/properties/url",
+      "type": "string"
+    }
+  }
+}
